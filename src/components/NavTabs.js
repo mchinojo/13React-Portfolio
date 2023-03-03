@@ -8,7 +8,7 @@ function NavTabs() {
       <nav className="navbar border-bottom border-dark navbar-expand-lg">
         <div className="container-fluid">
           <NavLink
-            to="/"
+            to="/13React-Portfolio/"
             end
             className={({ isActive }) =>
               `nav-link navbar-brand ${isActive ? "active" : ""}`
@@ -32,7 +32,7 @@ function NavTabs() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <NavLink
-                  to="projects"
+                  to="/13React-Portfolio/projects"
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
                   }
@@ -42,7 +42,7 @@ function NavTabs() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="contact"
+                  to="/13React-Portfolio/contact"
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
                   }

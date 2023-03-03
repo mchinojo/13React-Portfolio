@@ -1,4 +1,9 @@
-p {
-  line-height: 1.8 !important;
+.coni {
   font-family: "Anton", sans-serif;
+  font-size: 60px !important;
+  color: #6c701c;
+}
+
+.subConi {
+  font-family: "Source Code Pro", monospace;
 }
