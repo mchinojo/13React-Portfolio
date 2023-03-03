@@ -5,7 +5,7 @@ import "./NavTabs.css";
 function NavTabs() {
   return (
     <header id="topPage">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar border-bottom border-dark navbar-expand-lg">
         <div className="container-fluid">
           <NavLink
             to="/"
@@ -32,89 +32,29 @@ function NavTabs() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <NavLink
-                  to="about"
+                  to="projects"
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  About
+                  PROJECTS
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skills">
-                  Skills
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#aboutMe">
-                  About me
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#aboutMe">
-                  Contact me
-                </a>
+                <NavLink
+                  to="contact"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  CONTACT ME
+                </NavLink>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
-    // <ul className="nav nav-tabs">
-    //   <li className="nav-item">
-    //     <NavLink
-    //       to="/"
-    //       end
-    //       className={({ isActive }) =>
-    //         isActive ? "nav-link active" : "nav-link"
-    //       }
-    //     >
-    //       Home
-    //     </NavLink>
-    //   </li>
-    //   <li className="nav-item">
-    //     <NavLink
-    //       to="about"
-    //       className={({ isActive }) =>
-    //         isActive ? "nav-link active" : "nav-link"
-    //       }
-    //     >
-    //       About
-    //     </NavLink>
-    //   </li>
-    //   <li className="nav-item">
-    //     <NavLink
-    //       to="blog"
-    //       className={({ isActive }) =>
-    //         isActive ? "nav-link active" : "nav-link"
-    //       }
-    //     >
-    //       Blog
-    //     </NavLink>
-    //   </li>
-    //   <li className="nav-item">
-    //     <NavLink
-    //       to="contact"
-    //       end
-    //       className={({ isActive }) =>
-    //         isActive ? "nav-link active" : "nav-link"
-    //       }
-    //     >
-    //       Contact
-    //     </NavLink>
-    //   </li>
-    //   <li className="nav-item">
-    //     <NavLink
-    //       to="contact/learn"
-    //       className={({ isActive }) =>
-    //         isActive ? "nav-link active" : "nav-link"
-    //       }
-    //     >
-    //       Learn
-    //     </NavLink>
-    //   </li>
-    // </ul>
   );
 }
 
