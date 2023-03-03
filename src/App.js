@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
-import Projects from "./components/pages/Projects";
+import ProjectGallery from "./components/pages/ProjectGallery";
 import Contact from "./components/pages/Contact";
 // import Contact from './components/pages/Contact';
 
@@ -11,12 +11,12 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
         <Routes basename="13React-Portfolio">
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
           <Route path="/13React-Portfolio/" element={<Home />} />
-          <Route path="/13React-Portfolio/projects" element={<Projects />} />
+          <Route
+            path="/13React-Portfolio/projects"
+            element={<ProjectGallery />}
+          />
           <Route path="/13React-Portfolio/contact" element={<Contact />} />
         </Routes>
       </div>
