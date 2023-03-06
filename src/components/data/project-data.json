@@ -2,42 +2,42 @@
     {
         "id": 1,
         "title": "Project 1",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-01.jpg",
         "deployedLink": "https://www.example.com/project1",
         "githubLink": "https://github.com/username/project1"
     },
     {
         "id": 2,
         "title": "Project 2",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-02.jpg",
         "deployedLink": "https://www.example.com/project2",
         "githubLink": "https://github.com/username/project2"
     },
     {
         "id": 3,
         "title": "Project 3",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-03.jpg",
         "deployedLink": "https://www.example.com/project3",
         "githubLink": "https://github.com/username/project3"
     },
     {
         "id": 4,
         "title": "Project 4",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-04.jpg",
         "deployedLink": "https://www.example.com/project1",
         "githubLink": "https://github.com/username/project1"
     },
     {
         "id": 5,
         "title": "Project 5",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-05.jpg",
         "deployedLink": "https://www.example.com/project2",
         "githubLink": "https://github.com/username/project2"
     },
     {
         "id": 6,
         "title": "Project 6",
-        "image": "https://picsum.photos/seed/picsum/200/200",
+        "image": "/images/project-06.jpg",
         "deployedLink": "https://www.example.com/project3",
         "githubLink": "https://github.com/username/project3"
     }
