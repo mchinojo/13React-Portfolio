@@ -1,21 +1,61 @@
 import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="container">
-      <h1>Contact me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className="jumbotron px-4 py-5">
+      <div className="container">
+        <div className="text-center">
+          <h1 className="display-4 my-5 mb-5">Say hello</h1>
+          <form>
+            <div className="form-group mb-3">
+              <input
+                type="email"
+                className="form-control border border-dark rounded-0"
+                id="exampleFormControlInput1"
+                placeholder="Your mail"
+              ></input>
+            </div>
+            <div className="form-group mb-3">
+              <textarea
+                className="form-control border border-dark rounded-0"
+                id="exampleFormControlTextarea1"
+                placeholder="Your message"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <ul className="nav justify-content-center my-5">
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                target="_blank"
+                href="https://github.com/mchinojo"
+              >
+                GitHub
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                target="_blank"
+                href="https://www.linkedin.com/in/conihesp/"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                target="_blank"
+                href="mailto:myemail@example.com"
+              >
+                My email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

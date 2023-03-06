@@ -16,5 +16,5 @@ a:hover {
 }
 
 .active {
-  text-decoration: underline !important;
+  text-decoration: underline !;
 }
