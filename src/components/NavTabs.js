@@ -12,7 +12,7 @@ function NavTabs() {
         <Container fluid>
           <Navbar.Brand
             as={NavLink}
-            to="/13React-Portfolio/"
+            to="/"
             end
             className={({ isActive }) =>
               `nav-link navbar-brand ${isActive ? "active" : ""}`
@@ -24,7 +24,7 @@ function NavTabs() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavLink
-                to="/13React-Portfolio/projects"
+                to="/projects"
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
@@ -33,7 +33,7 @@ function NavTabs() {
               </NavLink>
 
               <NavLink
-                to="/13React-Portfolio/contact"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
