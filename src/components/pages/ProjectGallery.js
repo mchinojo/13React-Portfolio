@@ -10,6 +10,7 @@ function ProjectGallery() {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {projectData.map((project) => (
           <Project
+            key={project.id}
             title={project.title}
             image={project.image}
             deployedLink={project.deployedLink}

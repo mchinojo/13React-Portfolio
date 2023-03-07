@@ -10,17 +10,15 @@ function NavTabs() {
     <header id="topPage">
       <Navbar className="navbar border-bottom border-dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home">
-            {" "}
-            <NavLink
-              to="/13React-Portfolio/"
-              end
-              className={({ isActive }) =>
-                `nav-link navbar-brand ${isActive ? "active" : ""}`
-              }
-            >
-              Connie H.
-            </NavLink>
+          <Navbar.Brand
+            as={NavLink}
+            to="/13React-Portfolio/"
+            end
+            className={({ isActive }) =>
+              `nav-link navbar-brand ${isActive ? "active" : ""}`
+            }
+          >
+            Connie H.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
