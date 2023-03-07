@@ -30,6 +30,15 @@ function Contact() {
               <a
                 className="nav-link"
                 target="_blank"
+                href="https://drive.google.com/file/d/1pQMyYyFu0-AEh0qp9MGjDMgospVd5IwL/view?usp=share_link"
+              >
+                My résumé
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                target="_blank"
                 href="https://github.com/mchinojo"
               >
                 GitHub
