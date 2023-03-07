@@ -1,12 +1,16 @@
 .jumbotron {
   background-color: #6c701c;
-  min-height: 500px;
+  height: 100vh;
 }
 
 .jumbotron h1 {
   font-family: "Anton", sans-serif;
   font-size: 60px !important;
   color: #fea296;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
 }
 
 li a {

@@ -3,11 +3,11 @@ nav .navbar-nav li a {
 }
 
 .navbar-brand {
-  font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif !important;
   font-size: 38px !important;
 }
 
-.nav-item {
+.nav-link {
   font-family: "Source Code Pro", monospace;
 }
 
