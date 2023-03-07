@@ -4,7 +4,6 @@ import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import ProjectGallery from "./components/pages/ProjectGallery";
 import Contact from "./components/pages/Contact";
-// import Contact from './components/pages/Contact';
 
 function App() {
   return (
