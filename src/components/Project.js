@@ -1,4 +1,5 @@
 import React from "react";
+import "./Project.css";
 
 function Project(props) {
   return (
@@ -11,10 +12,20 @@ function Project(props) {
         ></img>
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
-          <a href={props.deployedLink} target="_blank" className="link">
+          <a
+            href={props.deployedLink}
+            rel="noreferrer"
+            target="_blank"
+            className="link"
+          >
             Deployed page
           </a>
-          <a href={props.githubLink} target="_blank" className="link">
+          <a
+            href={props.githubLink}
+            rel="noreferrer"
+            target="_blank"
+            className="link"
+          >
             Repository
           </a>
         </div>

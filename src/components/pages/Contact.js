@@ -29,6 +29,7 @@ function Contact() {
             <li className="nav-item">
               <a
                 className="nav-link"
+                rel="noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/1pQMyYyFu0-AEh0qp9MGjDMgospVd5IwL/view?usp=share_link"
               >
@@ -38,6 +39,7 @@ function Contact() {
             <li className="nav-item">
               <a
                 className="nav-link"
+                rel="noreferrer"
                 target="_blank"
                 href="https://github.com/mchinojo"
               >
@@ -47,6 +49,7 @@ function Contact() {
             <li className="nav-item">
               <a
                 className="nav-link"
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.linkedin.com/in/conihesp/"
               >
@@ -56,6 +59,7 @@ function Contact() {
             <li className="nav-item">
               <a
                 className="nav-link"
+                rel="noreferrer"
                 target="_blank"
                 href="mailto:myemail@example.com"
               >

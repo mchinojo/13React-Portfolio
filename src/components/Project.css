@@ -1,0 +1,20 @@
+.card-body {
+  background-color: #e3d8ba;
+  font-family: "Source Code Pro", monospace;
+}
+
+a {
+  display: block;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+.card-title {
+  font-family: "Anton", sans-serif;
+  color: #ed5c27;
+}
