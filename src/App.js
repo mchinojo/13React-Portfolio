@@ -7,9 +7,12 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
+    // Using the Router component from react-router-dom.
     <Router>
       <div>
+        {/* Using the NavTabs component to display the links */}
         <NavTabs />
+        {/* Defining the routes */}
         <Routes basename="/">
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectGallery />} />

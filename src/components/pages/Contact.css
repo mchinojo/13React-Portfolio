@@ -9,8 +9,20 @@
   color: #fea296;
 }
 
+form {
+  font-family: "Source Code Pro", monospace;
+}
+
 .form-control:focus {
   box-shadow: none !important;
+}
+
+input {
+  background-color: #e3d8ba !important;
+}
+
+textarea {
+  background-color: #e3d8ba !important;
 }
 
 li a {
@@ -23,16 +35,4 @@ a:hover {
 
 .active {
   text-decoration: underline !;
-}
-
-form {
-  font-family: "Source Code Pro", monospace;
-}
-
-input {
-  background-color: #e3d8ba !important;
-}
-
-textarea {
-  background-color: #e3d8ba !important;
 }

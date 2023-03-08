@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 function Contact() {
+  // Defining the structure and content of the Contact component.
   return (
     <div className="jumbotron px-4 py-5">
       <div className="container">
